@@ -1,0 +1,282 @@
+/*fonts start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*fonts end*/
+
+/*common start*/
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.h1{
+	font-size: 48px;
+	font-weight: 700;
+	color: #000000;
+	line-height: 70px;
+}
+.p{
+	line-height: 36px;
+}
+/*common end*/
+
+/*header start*/
+header{
+	background-color: #ffffff;
+	border-bottom: 1px solid #007421;
+}
+.cnav{}
+.logo{
+	width: 100px;
+}
+.nav_tgl:focus {
+	box-shadow: 1px 1px 1px #007421;
+}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important;
+	color: #000000 !important;
+	line-height: 24px;
+}
+.menu ul li a:hover{
+	color: #007421 !important;
+}
+.btn_c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #007421;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	line-height: 19px;
+}
+.btn_sign{
+	margin-left: 10px;
+	width: 105px;
+	height: 45px;
+}
+.btn_c:hover{
+	background-color: #d0e0fd;
+	color: #000000;
+}
+.btn_c:active{
+	background-color: #d0e0fd !important;
+	color: #000000 !important;
+}
+/*header end*/
+
+/*bannner start*/
+.banner{
+	background-color: #d4e8d6;
+	padding: 20px 0;
+}
+.b_text{}
+.b_p1{
+	line-height: 24px;
+}
+.b_h1{
+	margin: 10px 0px 20px 0px;
+	padding: 0px 100px 0px 0px;
+}
+.b_h1 span{
+	color: #007421;
+}
+.b_p2{
+	line-height: 36px;
+}
+.btn_link{
+	margin-top: 15px;
+	width: 155px;
+	height: 45px;
+}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/*bannner end*/
+
+/*service start*/
+.service{
+	padding: 60px 0;
+	text-align: center;
+}
+.s_service{
+	margin-top: 40px;
+	padding: 55px 0 50px;
+	background-color: #ffffff;
+	box-shadow: 8px 20px 40px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	transition: .33s;
+}
+.s_service:hover{
+	background-color: #007421;
+	color: #ffffff;
+}
+.s_img{
+	margin: 0 auto 20px;
+}
+s_img img{}
+.h2{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+}
+.s_service p{
+	line-height: 24px;
+	padding: 0 10px;
+}
+/*service end*/
+
+/*experience start*/
+.experience{
+	padding: 100px 0;
+}
+.exp_img{
+	padding: 10px;
+}
+.exp_img img{
+	width: 100%;
+}
+.exp_details{
+	padding: 10px;
+}
+.exp_h1 span{
+	color: #007421;
+}
+.exp_ul li{
+	font-size: 18px;
+	font-weight: 500;
+}
+/*experience end*/
+
+/*choose start*/
+.choose{
+	background-color: #004d3a;
+	padding: 60px 0;
+}
+.choose_details{
+	padding: 10px;
+}
+.choose_h1{
+	color: #ffffff;
+}
+.choose_p{
+	color: #ffffff;
+}
+.choose_ul li{
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+}
+.choose_img{}
+.choose_img img{
+	width: 100%;
+}
+/*choose end*/
+
+/*process start*/
+.process{
+	padding: 60px 0;
+	text-align: center;
+}
+/*process end*/
+
+/*call us start*/
+.call{
+	padding: 60px 0px;
+	text-align: center;
+}
+.call_details{
+	background-image: url(../images/callus.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+.call_h1{
+	color: #ffffff;
+}
+.btn_call{
+	margin: 50px auto;
+	width: 155px;
+	height: 45px;
+}
+/*call us end*/
+
+/*staff start*/
+.staff{
+	padding: 60px 0;
+}
+
+/*staff end*/
+
+/*clients start*/
+.clients{
+	padding: 60px 0;
+	background-color: #d4e8d6;
+}
+.clients_h1{
+	margin-bottom: 30px;
+}
+/*clients end*/
+
+/*faq start*/
+.faq{
+	padding: 60px 0;
+}
+.faq_btn{
+	background-color: #007421;
+}
+/*faq end*/
+
+/*solution start*/
+.solution{
+	padding: 60px 0;
+}
+.solution_details{
+	padding: 20px;
+	background-color: #d4e8d6;
+    border-radius: 10px;
+}
+/*solution end*/
+
+/*footer top start*/
+.footer_top{
+	padding: 55px 0 55px;
+	background-color: #004d3a;
+	border-bottom: 1px solid;
+}
+.f_details{
+	padding-right: 120px;
+}
+.f_details p{
+	color: #ffffff;
+	line-height: 30px;
+}
+.f_links{}
+.f_links h2{
+	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 30px;
+}
+.f_links ul li a{
+	margin-bottom: 8px;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+}
+footer{
+	padding: 20px 0 30px;
+	background-color: #004d3a;
+}
+footer p{
+	color: #ffffff;
+	line-height: 30px;
+}
+footer p a{
+	color: #ffffff;
+}
+/*footer top end*/
